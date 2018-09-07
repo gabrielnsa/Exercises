@@ -7,21 +7,24 @@ def tax_value(brute_salary, tax):
     value = (brute_salary*tax)/100
     return value
 
-#Division
+#Layout Division:
 def div():
     print('*'*50)
 
-#Recieving Values
+#Main function: 
+
+#Recieving Values:
 brute_salary = float(input('Enter the value of your brute salary: '))
 tax_income = float(input('Enter the percentage of the income tax: '))
 tax_retirement = float(input('Enter the percentage of the retirement tax: '))
 bonus_housing = float(input('Enter the value of your housing assistance: '))
 bonus_alimentation = float(input('Enter the value of your alimentation assistance: '))
+
+#Output menu: 
 print()
 div()
 print('{:30}{}{:.2f}'.format('Brute Slary','=  ', brute_salary))
 div()
-
 print('Taxes:')
 print('{:30}{}{:.2f}'.format('Income Tax','=  ', tax_value(brute_salary, tax_income)))
 print('{:30}{}{:.2f}'.format('Social Previdence','=  ', tax_value(brute_salary, tax_retirement)))
