@@ -1,6 +1,6 @@
 #Name: Gabriel N Sa
 #Date: 09.07.2018
-#Description: Basic for loop test
+#Description: Simple grade system.
 
 #Recieving scores and returning the average grades:
 def average(number_of_tests):
