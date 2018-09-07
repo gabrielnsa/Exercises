@@ -2,7 +2,7 @@
 #09.07.2018
 #Desciption - Basic if statement test.
 
-#Getting temperature values
+#Getting temperature values:
 def get_values():
     temperature = float(input('Enter the temperature in Celcius: '))
     return temperature
